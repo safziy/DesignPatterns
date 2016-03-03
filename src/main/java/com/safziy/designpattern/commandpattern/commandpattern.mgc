@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ClassDiagram>
+    <Class name="com.safziy.designpattern.commandpattern.Receiver"
+        x="223" y="178">
+        <AttributesDisplayFilter public-accepted="true"
+            private-accepted="true" protected-accepted="true"
+            default-accepted="true" static-accepted="false"/>
+        <MethodDisplayFilter public-accepted="true"
+            private-accepted="false" protected-accepted="false"
+            default-accepted="false" static-accepted="false"
+            accessors-accepted="false" constructors-accepted="false"/>
+    </Class>
+    <Class name="com.safziy.designpattern.commandpattern.Invoker"
+        x="185" y="83">
+        <AttributesDisplayFilter public-accepted="true"
+            private-accepted="true" protected-accepted="true"
+            default-accepted="true" static-accepted="false"/>
+        <MethodDisplayFilter public-accepted="true"
+            private-accepted="false" protected-accepted="false"
+            default-accepted="false" static-accepted="false"
+            accessors-accepted="false" constructors-accepted="false"/>
+        <Association
+            destinationClassName="com.safziy.designpattern.commandpattern.Command"
+            endpointName="command" kind="Simple"/>
+        <Communication destinationClassName="com.safziy.designpattern.commandpattern.Command"/>
+    </Class>
+    <Class
+        name="com.safziy.designpattern.commandpattern.ConcreteCommand"
+        x="418" y="180">
+        <AttributesDisplayFilter public-accepted="true"
+            private-accepted="true" protected-accepted="true"
+            default-accepted="true" static-accepted="false"/>
+        <MethodDisplayFilter public-accepted="true"
+            private-accepted="false" protected-accepted="false"
+            default-accepted="false" static-accepted="false"
+            accessors-accepted="false" constructors-accepted="false"/>
+        <Extension destinationClassName="com.safziy.designpattern.commandpattern.Command"/>
+        <Association
+            destinationClassName="com.safziy.designpattern.commandpattern.Receiver"
+            endpointName="receiver" kind="Simple"/>
+        <Communication destinationClassName="com.safziy.designpattern.commandpattern.Receiver"/>
+    </Class>
+    <Class name="com.safziy.designpattern.commandpattern.Command"
+        x="421" y="77">
+        <AttributesDisplayFilter public-accepted="true"
+            private-accepted="true" protected-accepted="true"
+            default-accepted="true" static-accepted="false"/>
+        <MethodDisplayFilter public-accepted="true"
+            private-accepted="false" protected-accepted="false"
+            default-accepted="false" static-accepted="false"
+            accessors-accepted="false" constructors-accepted="false"/>
+    </Class>
+</ClassDiagram>
