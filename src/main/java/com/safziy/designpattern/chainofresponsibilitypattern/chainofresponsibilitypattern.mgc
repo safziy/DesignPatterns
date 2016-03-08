@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ClassDiagram>
+    <Class
+        name="com.safziy.designpattern.chainofresponsibilitypattern.ConcreteHandlerA"
+        x="212" y="214">
+        <AttributesDisplayFilter public-accepted="true"
+            private-accepted="true" protected-accepted="true"
+            default-accepted="true" static-accepted="false"/>
+        <MethodDisplayFilter public-accepted="true"
+            private-accepted="false" protected-accepted="false"
+            default-accepted="false" static-accepted="false"
+            accessors-accepted="false" constructors-accepted="false"/>
+        <Extension destinationClassName="com.safziy.designpattern.chainofresponsibilitypattern.Handler"/>
+        <Association
+            destinationClassName="com.safziy.designpattern.chainofresponsibilitypattern.Handler"
+            endpointName="nextHandler" kind="Simple"/>
+        <Communication destinationClassName="com.safziy.designpattern.chainofresponsibilitypattern.Handler"/>
+    </Class>
+    <Class
+        name="com.safziy.designpattern.chainofresponsibilitypattern.ConcreteHandlerB"
+        x="438" y="215">
+        <AttributesDisplayFilter public-accepted="true"
+            private-accepted="true" protected-accepted="true"
+            default-accepted="true" static-accepted="false"/>
+        <MethodDisplayFilter public-accepted="true"
+            private-accepted="false" protected-accepted="false"
+            default-accepted="false" static-accepted="false"
+            accessors-accepted="false" constructors-accepted="false"/>
+        <Extension destinationClassName="com.safziy.designpattern.chainofresponsibilitypattern.Handler"/>
+        <Association
+            destinationClassName="com.safziy.designpattern.chainofresponsibilitypattern.Handler"
+            endpointName="nextHandler" kind="Simple"/>
+        <Communication destinationClassName="com.safziy.designpattern.chainofresponsibilitypattern.Handler"/>
+    </Class>
+    <Class
+        name="com.safziy.designpattern.chainofresponsibilitypattern.Handler"
+        x="347" y="117">
+        <AttributesDisplayFilter public-accepted="true"
+            private-accepted="true" protected-accepted="true"
+            default-accepted="true" static-accepted="false"/>
+        <MethodDisplayFilter public-accepted="true"
+            private-accepted="false" protected-accepted="false"
+            default-accepted="false" static-accepted="false"
+            accessors-accepted="false" constructors-accepted="false"/>
+    </Class>
+</ClassDiagram>

@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ClassDiagram>
+    <Class name="com.safziy.designpattern.facadepattern.Facade" x="342" y="90">
+        <AttributesDisplayFilter public-accepted="true"
+            private-accepted="true" protected-accepted="true"
+            default-accepted="true" static-accepted="false"/>
+        <MethodDisplayFilter public-accepted="true"
+            private-accepted="false" protected-accepted="false"
+            default-accepted="false" static-accepted="false"
+            accessors-accepted="false" constructors-accepted="false"/>
+        <Association
+            destinationClassName="com.safziy.designpattern.facadepattern.SubSystemA"
+            endpointName="subSystemA" kind="Simple"/>
+        <Association
+            destinationClassName="com.safziy.designpattern.facadepattern.SubSystemB"
+            endpointName="subSystemB" kind="Simple"/>
+        <Association
+            destinationClassName="com.safziy.designpattern.facadepattern.SubSystemC"
+            endpointName="subSystemC" kind="Simple"/>
+        <Communication destinationClassName="com.safziy.designpattern.facadepattern.SubSystemA"/>
+        <Communication destinationClassName="com.safziy.designpattern.facadepattern.SubSystemC"/>
+        <Communication destinationClassName="com.safziy.designpattern.facadepattern.SubSystemB"/>
+    </Class>
+    <Class name="com.safziy.designpattern.facadepattern.SubSystemA"
+        x="204" y="178">
+        <AttributesDisplayFilter public-accepted="true"
+            private-accepted="true" protected-accepted="true"
+            default-accepted="true" static-accepted="false"/>
+        <MethodDisplayFilter public-accepted="true"
+            private-accepted="false" protected-accepted="false"
+            default-accepted="false" static-accepted="false"
+            accessors-accepted="false" constructors-accepted="false"/>
+    </Class>
+    <Class name="com.safziy.designpattern.facadepattern.SubSystemC"
+        x="507" y="182">
+        <AttributesDisplayFilter public-accepted="true"
+            private-accepted="true" protected-accepted="true"
+            default-accepted="true" static-accepted="false"/>
+        <MethodDisplayFilter public-accepted="true"
+            private-accepted="false" protected-accepted="false"
+            default-accepted="false" static-accepted="false"
+            accessors-accepted="false" constructors-accepted="false"/>
+    </Class>
+    <Class name="com.safziy.designpattern.facadepattern.SubSystemB"
+        x="346" y="184">
+        <AttributesDisplayFilter public-accepted="true"
+            private-accepted="true" protected-accepted="true"
+            default-accepted="true" static-accepted="false"/>
+        <MethodDisplayFilter public-accepted="true"
+            private-accepted="false" protected-accepted="false"
+            default-accepted="false" static-accepted="false"
+            accessors-accepted="false" constructors-accepted="false"/>
+    </Class>
+</ClassDiagram>
