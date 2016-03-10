@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ClassDiagram>
+    <Class
+        name="com.safziy.designpattern.madiatorpattern.ConcreteMediator"
+        x="154" y="229">
+        <AttributesDisplayFilter public-accepted="true"
+            private-accepted="true" protected-accepted="true"
+            default-accepted="true" static-accepted="false"/>
+        <MethodDisplayFilter public-accepted="true"
+            private-accepted="false" protected-accepted="false"
+            default-accepted="false" static-accepted="false"
+            accessors-accepted="false" constructors-accepted="false"/>
+        <Extension destinationClassName="com.safziy.designpattern.madiatorpattern.Mediator"/>
+        <Association
+            destinationClassName="com.safziy.designpattern.madiatorpattern.Colleague"
+            endpointName="colleagueB" kind="Simple"/>
+        <Association
+            destinationClassName="com.safziy.designpattern.madiatorpattern.Colleague"
+            endpointName="colleagueA" kind="Simple"/>
+    </Class>
+    <Class
+        name="com.safziy.designpattern.madiatorpattern.ConcreteColleagueB"
+        x="450" y="227">
+        <AttributesDisplayFilter public-accepted="true"
+            private-accepted="true" protected-accepted="true"
+            default-accepted="true" static-accepted="false"/>
+        <MethodDisplayFilter public-accepted="true"
+            private-accepted="false" protected-accepted="false"
+            default-accepted="false" static-accepted="false"
+            accessors-accepted="false" constructors-accepted="false"/>
+        <Extension destinationClassName="com.safziy.designpattern.madiatorpattern.Colleague"/>
+    </Class>
+    <Class name="com.safziy.designpattern.madiatorpattern.Mediator"
+        x="186" y="129">
+        <AttributesDisplayFilter public-accepted="true"
+            private-accepted="true" protected-accepted="true"
+            default-accepted="true" static-accepted="false"/>
+        <MethodDisplayFilter public-accepted="true"
+            private-accepted="false" protected-accepted="false"
+            default-accepted="false" static-accepted="false"
+            accessors-accepted="false" constructors-accepted="false"/>
+    </Class>
+    <Class
+        name="com.safziy.designpattern.madiatorpattern.ConcreteColleagueA"
+        x="307" y="225">
+        <AttributesDisplayFilter public-accepted="true"
+            private-accepted="true" protected-accepted="true"
+            default-accepted="true" static-accepted="false"/>
+        <MethodDisplayFilter public-accepted="true"
+            private-accepted="false" protected-accepted="false"
+            default-accepted="false" static-accepted="false"
+            accessors-accepted="false" constructors-accepted="false"/>
+        <Extension destinationClassName="com.safziy.designpattern.madiatorpattern.Colleague"/>
+    </Class>
+    <Class name="com.safziy.designpattern.madiatorpattern.Colleague"
+        x="391" y="129">
+        <AttributesDisplayFilter public-accepted="true"
+            private-accepted="true" protected-accepted="true"
+            default-accepted="true" static-accepted="false"/>
+        <MethodDisplayFilter public-accepted="true"
+            private-accepted="false" protected-accepted="false"
+            default-accepted="false" static-accepted="false"
+            accessors-accepted="false" constructors-accepted="false"/>
+    </Class>
+</ClassDiagram>
