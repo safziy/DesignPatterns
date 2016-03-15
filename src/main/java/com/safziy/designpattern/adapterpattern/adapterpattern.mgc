@@ -10,7 +10,7 @@
             default-accepted="false" static-accepted="false"
             accessors-accepted="false" constructors-accepted="false"/>
     </Class>
-    <Class name="com.safziy.designpattern.adapterpattern.Target" x="254" y="124">
+    <Class name="com.safziy.designpattern.adapterpattern.Target" x="244" y="112">
         <AttributesDisplayFilter public-accepted="true"
             private-accepted="true" protected-accepted="true"
             default-accepted="true" static-accepted="false"/>

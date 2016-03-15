@@ -14,7 +14,7 @@
     </Class>
     <Class
         name="com.safziy.designpattern.abstractfactorypattern.ProductB"
-        x="551" y="216">
+        x="548" y="214">
         <AttributesDisplayFilter public-accepted="true"
             private-accepted="true" protected-accepted="true"
             default-accepted="true" static-accepted="false"/>
@@ -25,7 +25,7 @@
     </Class>
     <Class
         name="com.safziy.designpattern.abstractfactorypattern.ProductA"
-        x="538" y="88">
+        x="533" y="82">
         <AttributesDisplayFilter public-accepted="true"
             private-accepted="true" protected-accepted="true"
             default-accepted="true" static-accepted="false"/>
@@ -96,7 +96,7 @@
     </Class>
     <Class
         name="com.safziy.designpattern.abstractfactorypattern.AbstractFactory"
-        x="174" y="110">
+        x="232" y="78">
         <AttributesDisplayFilter public-accepted="true"
             private-accepted="true" protected-accepted="true"
             default-accepted="true" static-accepted="false"/>
